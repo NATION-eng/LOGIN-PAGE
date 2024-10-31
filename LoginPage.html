@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    * {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: 200px;
+    }
+
+    .login-box {
+      background-color: black;
+      padding: 100px;
+      /* border-radius: px; */
+      box-shadow: brown;
+      width: 500px;
+      height: 400px;
+      margin: 50px;
+      border-radius: 5%;
+      /* padding-bottom: 50px; */
+    }
+
+    h1 {
+      color: brown;
+      padding-left: 200px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-bottom: 20px;
+    }
+
+    #USERNAME {
+      width: 480px;
+      height: 30px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      background-color: #f9f9f9;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0px;
+    }
+
+    #USERNAME:hover {
+      transform: scale(1.05);
+    }
+
+    #PASSWORD {
+      width: 480px;
+      height: 30px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      background-color: #f9f9f9;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0px;
+    }
+
+    #PASSWORD:hover {
+      transform: scale(1.05);
+    }
+
+    #E-MAIL {
+      width: 480px;
+      height: 30px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      background-color: #f9f9f9;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0px;
+    }
+
+    #E-MAIL:hover {
+      transform: scale(1.05);
+    }
+
+    .option {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      color: brown;
+    }
+
+    button {
+      width: 480px;
+      height: 50px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 50px;
+      background-color: #f9f9f9;
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      letter-spacing: 0px;
+      color: brown;
+    }
+
+    button:hover {
+      color: darkred;
+      transform: scale(1.05);
+    }
+
+    a {
+      font-weight: 600;
+      padding-left: 220px;
+    }
+
+    a:hover {
+      transform: scale(1.07);
+      color: lightblue;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-box">
+        <h1>LOG IN</h1>
+        <input type="text" id="USERNAME" placeholder="USERNAME" />
+        <br />
+        <input type="text" id="E-MAIL" placeholder="E-MAIL" />
+        <br />
+        <input type="text" id="PASSWORD" placeholder="PASSWORD" />
+
+        <div class="option">
+          <label for=""><input type="checkbox" />Remember me</label>
+          <ul>
+            <a href="#">Forgot Password?</a>
+          </ul>
+        </div>
+        <button type="submit">LOG IN</button>
+        <br />
+        <br />
+        <a href="#">Sign IN</a>
+      </div>
+    </div>
+  </body>
+</html>
